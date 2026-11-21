@@ -188,4 +188,6 @@ The subcategory-and-currency median baseline achieved the lowest WAPE in this ev
 
 This experiment demonstrates that a carefully selected statistical baseline can outperform a more complex machine learning model on a particular cold-start evaluation.
 
-**Evaluation limitation:** The first observed sale date defines the beginning of the target window. Therefore, this
+**Evaluation limitation:** The first observed sale date defines the beginning of the target window. Therefore, this is not a true pre-launch demand forecast. The model estimates demand over the first 14 calendar days after a product's first recorded sale. The March 2025 evaluation includes only products with complete 14-day observation windows.
+
+The results should be interpreted as an early-life product demand estimation experiment rather than a model that predicts demand before a product is launched. The findings are observational and may not generalize to other retail datasets or product launches.
