@@ -24,23 +24,4 @@ data/processed/*
 EOF
 # Ignore processed data by default
 data/processed/*
-
-# Keep only files required by the Streamlit dashboard
-!data/processed/monthly_sales.csv
-!data/processed/category_performance.csv
-!data/processed/discount_performance.csv
-!data/processed/returns_analysis.csv
-!data/processed/campaign_revenue_analysis.csv
-!data/processed/promotion_effectiveness.csv
-!data/processed/product_demand_metrics.csv
-!data/processed/cohort_demand_summary.csv
-!data/processed/subcategory_demand_ranking.csv
-!data/processed/reliable_product_rankings.csv
-!data/processed/cold_start_product_predictions.csv
-!data/processed/calibrated_cold_start_predictions.csv
-!data/processed/calibrated_demand_model_comparison.csv
-!data/processed/calibrated_demand_segment_evaluation.csv
-!data/processed/first_14_day_subcategory_comparison.csv
-!data/processed/product_cohort_lifecycle.csv
-!data/processed/product_cohort_category_summary.csv
 data/raw/
